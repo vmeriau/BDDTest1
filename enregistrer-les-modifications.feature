@@ -13,7 +13,7 @@ Feature: Enregistrer les modifications
     And clic sur Enregistrer
     Then les modifications sont enregistrées.
 
-  @ORPHAN
+  @TES-1 @OPEN
   Scenario: Contrôle des zones obligatoires
     Given que le paramétrage de la campagne est renseigné (01/10/2018,20/10/2018, 31/10/2018)
     And la campagne est ouverte (05/10/2018)
