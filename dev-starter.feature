@@ -1,6 +1,6 @@
 Feature: Dev Starter
 
-  @ORPHAN
+  @TES-3 @OPEN
   Scenario: Lancer une VM de dev
     Given J'ai un PC Windows
     When Je clique sur un bouton
