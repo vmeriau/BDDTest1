@@ -1,6 +1,6 @@
 Feature: Test plugin BDD
 
-  @ORPHAN
+  @TES-4 @OPEN
   Scenario: Saisir des TA
     Given J'ai un Jira avec le bon plugin
     When Je clique sur Requirements puis Add Feature
