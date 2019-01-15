@@ -6,7 +6,7 @@ Feature: Test plugin BDD
     When Je clique sur Requirements puis Add Feature
     Then Je peux saisir un TA au format Gherkin
 
-  @ORPHAN
+  @TES-4 @OPEN
   Scenario: Sauvegarde dans Git
     Given J'ai un Jira avec le bon plugin
     When J'enregistre mes TA
