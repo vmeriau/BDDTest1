@@ -1,6 +1,6 @@
 Feature: Demo delivery
 
-  @ORPHAN
+  @TES-5 @OPEN
   Scenario: Demo Delivery
     Given Je fais une audio avec vous
     When Vous êtes d'accord
